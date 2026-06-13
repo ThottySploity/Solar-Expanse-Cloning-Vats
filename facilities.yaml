@@ -1,0 +1,34 @@
+# Cloning Vats testing
+build_cloning_vat:
+  facilityType: Production
+  possiblePlacement: Surface
+  icon: vat.png
+  name: Large Cloning Vat
+  description: A large cloning vat that refines ordinary resources into 5 brand new colonists per month
+  isLocked: true
+  maintenanceCostPerDay: 10
+  energyConsumption: 2.5
+  needWorkersToWork: 10
+  specialAbility: Refiner
+  specialAbilityParameter: 0.001
+  upkeepStacking: false
+  upkeepStackingValue: 0
+  blockStacking: false
+  timeToBuildInDays: 100
+  constructionEquipmentCountIsRequired: true
+  facilityItemClass: RefineryFacility
+  buildCost: 0
+  buildResources:
+    id_resource_steel: 150
+    id_resource_raremetal: 20
+    id_resource_chips: 20
+  energyProduction: 0
+  solarPanels: false
+  windPower: false
+  geothermal: false
+  resourceExplorationBonus: 1
+  refinerInput:
+    id_resource_volatile: 0.25
+    id_resource_water: 0.75
+  refinerOutput:
+    id_resource_human: 0.1667

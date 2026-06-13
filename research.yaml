@@ -1,0 +1,4 @@
+research_biotech_4:
+  unlocks:
+    - action: UnlockFacility
+      id: build_cloning_vat
